@@ -1,0 +1,69 @@
+[{
+    "key": "group_about_page",
+    "title": "About Page Settings",
+    "fields": [
+        {
+            "key": "field_about_hero_title",
+            "label": "Hero Title",
+            "name": "about_hero_title",
+            "type": "text",
+            "default_value": "A strategist, speaker and <span class=\"text-brand-yellow\">business builder.</span>"
+        },
+        {
+            "key": "field_about_hero_desc",
+            "label": "Hero Description",
+            "name": "about_hero_desc",
+            "type": "textarea",
+            "default_value": "After 22 years driving growth for banks, universities, tech startups and accounting firms, I founded Orion Global Consulting to help businesses scale through the power of AI, brand positioning and community."
+        },
+        {
+            "key": "field_about_stats_list",
+            "label": "Hero Stats",
+            "name": "about_stats_list",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Add Stat",
+            "sub_fields": [
+                {
+                    "key": "field_about_stat_value",
+                    "label": "Value",
+                    "name": "value",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_about_story_title",
+            "label": "My Story Title",
+            "name": "about_story_title",
+            "type": "text",
+            "default_value": "Orjona Fjerza PhD"
+        },
+        {
+            "key": "field_about_story_content",
+            "label": "My Story Content",
+            "name": "about_story_content",
+            "type": "wysiwyg"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-about.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1694600001
+}
+]

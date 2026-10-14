@@ -1,0 +1,196 @@
+[{
+    "key": "group_shop_page",
+    "title": "Shop Page Settings",
+    "fields": [
+        {
+            "key": "field_shop_title",
+            "label": "Shop Page Title",
+            "name": "shop_title",
+            "type": "text",
+            "instructions": "Leave empty to use page title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Our Shop",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_shop_description",
+            "label": "Shop Page Description",
+            "name": "shop_description",
+            "type": "textarea",
+            "instructions": "Leave empty to use page excerpt",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Discover our collection of expertly curated publications and resources.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_products_per_page",
+            "label": "Products Per Page",
+            "name": "products_per_page",
+            "type": "number",
+            "instructions": "Number of products to display per page (default: 12)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 12,
+            "min": 1,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "key": "field_show_categories",
+            "label": "Show Category Filters",
+            "name": "show_categories",
+            "type": "true_false",
+            "instructions": "Display product category filter buttons",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "Enable category filters",
+            "ui": 1,
+            "default_value": 1
+        },
+        {
+            "key": "field_shop_books_title",
+            "label": "Books Tab Title (Legacy)",
+            "name": "shop_books_title",
+            "type": "text",
+            "instructions": "This field is deprecated. Use Shop Page Title instead.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Explore Our Publications",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_shop_books_desc",
+            "label": "Books Tab Description (Legacy)",
+            "name": "shop_books_desc",
+            "type": "textarea",
+            "instructions": "This field is deprecated. Use Shop Page Description instead.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "A curated collection of resources designed for professionals scaling in the AI era.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_shop_books_list",
+            "label": "Books List (Legacy)",
+            "name": "shop_books_list",
+            "type": "repeater",
+            "instructions": "This field is deprecated. Use WooCommerce products instead.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Book",
+            "sub_fields": [
+                {
+                    "key": "field_book_title",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text"
+                },
+                {
+                    "key": "field_book_subtitle",
+                    "label": "Subtitle",
+                    "name": "subtitle",
+                    "type": "text"
+                },
+                {
+                    "key": "field_book_author",
+                    "label": "Author",
+                    "name": "author",
+                    "type": "text"
+                },
+                {
+                    "key": "field_book_price",
+                    "label": "Price",
+                    "name": "price",
+                    "type": "text"
+                },
+                {
+                    "key": "field_book_amazon_url",
+                    "label": "Amazon URL",
+                    "name": "amazon_url",
+                    "type": "url"
+                },
+                {
+                    "key": "field_book_is_coming_soon",
+                    "label": "Is Coming Soon?",
+                    "name": "is_coming_soon",
+                    "type": "true_false",
+                    "message": "Check if this book is coming soon",
+                    "ui": 1
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-shop.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Configure shop page display and WooCommerce settings",
+    "show_in_rest": 0,
+    "modified": 1727659800
+}
+]

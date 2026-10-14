@@ -1,0 +1,62 @@
+[{
+    "key": "group_partnerships_page",
+    "title": "Partnerships Page Settings",
+    "fields": [
+        {
+            "key": "field_partnerships_hero_title",
+            "label": "Hero Title",
+            "name": "partnerships_hero_title",
+            "type": "text",
+            "default_value": "Empowering Growth Through <span class=\"text-brand-yellow\">Strategic Partnerships.</span>"
+        },
+        {
+            "key": "field_partnerships_hero_desc",
+            "label": "Hero Description",
+            "name": "partnerships_hero_desc",
+            "type": "textarea",
+            "default_value": "Join our ecosystem of industry leaders and innovators. Together, we build the future of AI-driven professional services."
+        },
+        {
+            "key": "field_partnerships_list",
+            "label": "Partners List",
+            "name": "partnerships_list",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Add Partner",
+            "sub_fields": [
+                {
+                    "key": "field_partner_name",
+                    "label": "Partner Name",
+                    "name": "name",
+                    "type": "text"
+                },
+                {
+                    "key": "field_partner_desc",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-partnerships.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1694600002
+}
+]

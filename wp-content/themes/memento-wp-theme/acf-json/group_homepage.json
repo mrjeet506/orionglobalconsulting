@@ -1,0 +1,104 @@
+[{
+    "key": "group_homepage_full",
+    "title": "Homepage Settings",
+    "fields": [
+        {
+            "key": "field_hp_hero_subtitle",
+            "label": "Hero Subtitle",
+            "name": "orion_hero_subtitle",
+            "type": "text",
+            "default_value": "DR. ORJONA FJERZA MCIM • PhD • MBA • CIM TOP 1%"
+        },
+        {
+            "key": "field_hp_hero_title",
+            "label": "Hero Title",
+            "name": "orion_hero_title",
+            "type": "text",
+            "default_value": "22 Years of <br><span class=\"text-yellow\">Marketing Authority.</span>"
+        },
+        {
+            "key": "field_hp_hero_role",
+            "label": "Hero Role",
+            "name": "orion_hero_role",
+            "type": "text",
+            "default_value": "AI Strategist • Board Advisor • Keynote Speaker • Investor • Published Researcher"
+        },
+        {
+            "key": "field_hp_hero_desc",
+            "label": "Hero Description",
+            "name": "orion_hero_desc",
+            "type": "textarea",
+            "default_value": "From banking to AI marketing in London. From university lecture halls to the United Nations. Across six sectors, two companies and twenty-two years — I have built, grown and transformed businesses through the power of marketing."
+        },
+        {
+            "key": "field_hp_pillars_subtitle",
+            "label": "Pillars Subtitle",
+            "name": "orion_pillars_subtitle",
+            "type": "text"
+        },
+        {
+            "key": "field_hp_pillars_title",
+            "label": "Pillars Title",
+            "name": "orion_pillars_title",
+            "type": "text"
+        },
+        {
+            "key": "field_hp_pillars_desc",
+            "label": "Pillars Description",
+            "name": "orion_pillars_desc",
+            "type": "textarea"
+        },
+        {
+            "key": "field_hp_ind_subtitle",
+            "label": "Industries Subtitle",
+            "name": "orion_ind_subtitle",
+            "type": "text"
+        },
+        {
+            "key": "field_hp_ind_title",
+            "label": "Industries Title",
+            "name": "orion_ind_title",
+            "type": "text"
+        },
+        {
+            "key": "field_hp_ind_desc",
+            "label": "Industries Description",
+            "name": "orion_ind_desc",
+            "type": "textarea"
+        },
+        {
+            "key": "field_hp_ai_tag",
+            "label": "AI Engine Tag",
+            "name": "orion_ai_tag",
+            "type": "text"
+        },
+        {
+            "key": "field_hp_ai_title",
+            "label": "AI Engine Title",
+            "name": "orion_ai_title",
+            "type": "text"
+        },
+        {
+            "key": "field_hp_ai_desc",
+            "label": "AI Engine Description",
+            "name": "orion_ai_desc",
+            "type": "textarea"
+        },
+        {
+            "key": "field_hp_ai_price",
+            "label": "AI Engine Price",
+            "name": "orion_ai_price",
+            "type": "text"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-homepage.php"
+            }
+        ]
+    ],
+    "active": true
+}]
